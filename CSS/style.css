@@ -1,0 +1,501 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Common Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Grand Hotel', cursive;
+    font-family: 'Montserrat', sans-serif; */
+    width: 100%;
+    height: 100vh;
+}
+
+/* Header Area */
+#header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 17px 0;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#logo {
+    margin: 0 0 0 50px;
+}
+
+#nav {
+    margin: 0 50px 0 0;
+}
+
+#nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    list-style: none;
+}
+
+#nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav ul i {
+    color: #fff;
+    cursor: pointer;
+}
+
+#nav ul li a:hover {
+    color: #fbc531;
+    transition: all ease 0.5s;
+}
+
+/*  Home Section */
+
+#home {
+    margin: 90px 0px 0px 175px;
+    text-align: center;
+    width: auto;
+    height: 380px;
+}
+
+#home h2 {
+    font-size: 80px;
+    font-family: 'Grand Hotel', cursive;
+    color: #dfac22;
+}
+
+#home p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#home button {
+    background: #dfac22;
+    padding: 10px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#home button:hover {
+    background: #fbc531;
+    transition: all ease 0.5s;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 550px;
+    width: 100%;
+    background: url("../IMG/bg.png") center center / cover no-repeat;
+    z-index: -1;
+}
+
+/* Best Seller Area */
+
+#best_seller {
+    margin-top: 80px;
+}
+
+#best_seller h2 {
+    font-size: 55px;
+    font-family: 'Grand Hotel', cursive;
+    text-align: center;
+    color: #000000b9;
+}
+
+.bs_para {
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #000000ea;
+    margin-bottom: 50px;
+}
+
+.img_sec {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.bs_food_img_container {
+    margin-bottom: 65px;
+}
+
+.bs_food_img_container img {
+    height: 200px;
+    width: 200px;
+    margin-left: 7px;
+}
+
+.bs_food_img_container h4 {
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 33px;
+    color: #000000b9;
+}
+
+.bs_food_img_container p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000ea;
+}
+
+/* Order Section */
+
+#order_sec {
+    padding: 0 90px;
+    height: 550px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#order_sec::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 550px;
+    width: 100%;
+    background: #2F2F2F;
+    opacity: 0.96;
+    z-index: -1;
+}
+
+.inner_sec0 h2 {
+    font-size: 80px;
+    font-family: 'Grand Hotel', cursive;
+    color: #dfac22;
+}
+
+.inner_sec0 p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.inner_sec0 button {
+    background: #dfac22;
+    padding: 10px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inner_sec0 button:hover {
+    background: #fbc531;
+    transition: all ease 0.5s;
+}
+
+.inner_sec0 img {
+    height: 350px;
+    width: 350px;
+}
+
+/* Rating Section */
+
+#rating_sec {
+    padding-top: 75px;
+    position: relative;
+    height: 550px;
+}
+
+#rating_sec::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 550px;
+    background: url(../IMG/rating_bg.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    z-index: -1;
+}
+
+#rating_sec h2 {
+    font-size: 90px;
+    color: #DFAC22;
+    font-family: 'Grand Hotel', cursive;
+    text-align: center;
+}
+
+#rating_sec>p {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.rating {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #303030;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.rating h5 {
+    color: #DFAC22;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rating>p {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rating_container {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+/* Order Section 2 */
+
+#order_sec2 {
+    padding: 0 90px;
+    height: 550px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#order_sec2::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 550px;
+    width: 100%;
+    background: #2F2F2F;
+    opacity: 0.96;
+    z-index: -1;
+}
+
+.inner_sec1 h2 {
+    font-size: 80px;
+    font-family: 'Grand Hotel', cursive;
+    color: #dfac22;
+}
+
+.inner_sec1 p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.inner_sec1 button {
+    background: #dfac22;
+    padding: 10px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inner_sec1 button:hover {
+    background: #fbc531;
+    transition: all ease 0.5s;
+}
+
+.inner_sec2 img {
+    height: 350px;
+    width: 350px;
+}
+
+/* Testimonial Section */
+
+#testimonial {
+    position: relative;
+    background: url(../IMG/testmonial_bg.png) no-repeat center center /cover;
+    height: 500px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#testimonial::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: 100%;
+    background: url(../IMG/testimonial_2.png);
+    opacity: 0.8;
+    z-index: -1;
+}
+
+#testimonial p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: #000000b0;
+    margin-bottom: 20px;
+}
+
+#testimonial h4 {
+    color: #000000c0;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+}
+
+/* Subscribe Section */
+
+#subscribe_sec {
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#subscribe_sec::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: 100%;
+    background: url(../IMG/subs_bg.png);
+    z-index: -1;
+}
+
+#subscribe_sec h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+#subscribe_sec p {
+    color: #000000b0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    margin-bottom: 33px;
+}
+
+#subscribe_sec input {
+    height: 40px;
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    outline: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: white;
+    padding-left: 13px;
+}
+
+#subscribe_sec .input_area button {
+    background: #fbc531;
+    padding: 12px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+
+#footer_sec {
+    height: 550px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footer_sec::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 550px;
+    width: 100%;
+    background: #2F2F2F;
+    opacity: 0.96;
+    z-index: -1;
+}
+
+#footer_sec h4 {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 23px;
+}
+
+.footer_sec1 p {
+    font-size: 18px;
+    color: #ffffffcb;
+    margin-bottom: 23px;
+}
+
+.footer_sec1 i {
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffffcb;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.links a:hover {
+    color: #DFAC22;
+    transition: all ease 0.5s;
+}
+
+.footer_sec4 {
+    margin-bottom: 50px;
+}
