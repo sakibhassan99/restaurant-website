@@ -488,7 +488,7 @@ header::before {
     text-decoration: none;
     color: #ffffffcb;
     display: block;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .links a:hover {
