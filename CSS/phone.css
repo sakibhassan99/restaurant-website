@@ -32,9 +32,9 @@
     }
 
     .rating {
-    height: 105px;
-    width: 105px;
-    margin-right: unset;
+        height: 105px;
+        width: 105px;
+        margin-right: unset;
     }
 
     .rating_container {
@@ -105,9 +105,17 @@
     #home {
         margin: 90px 0px 0px 0;
     }
+
+    .rating h5 {
+        font-size: 27px;
+    }
+
+    .rating>p {
+        font-size: 15px;
+    }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 415px) {
     .rating {
         height: 70px;
         width: 70px;
