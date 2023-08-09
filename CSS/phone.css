@@ -32,9 +32,9 @@
     }
 
     .rating {
-        height: 125px;
-        width: 125px;
-        margin-right: -15px;
+    height: 105px;
+    width: 105px;
+    margin-right: unset;
     }
 
     .rating_container {
